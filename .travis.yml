@@ -4,6 +4,6 @@ language: ruby
 ruby: "2.7.4"
 
 before_install:
-  - bundle install
+  - rails db:migrate
 script:
   - bundle exec rspec
