@@ -4,6 +4,6 @@ language: ruby
 ruby: "2.7.4"
 
 before_install:
-  - bundle install --jobs=3 --retry=3 --development
+  - bundle install
 script:
   - bundle exec rspec
