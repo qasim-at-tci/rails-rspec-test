@@ -3,7 +3,7 @@ dist: xenial
 language: ruby
 ruby: "2.7.4"
 
-before_install:
-  - rails db:migrate
+
 script:
+  - rails db:migrate
   - bundle exec rspec
