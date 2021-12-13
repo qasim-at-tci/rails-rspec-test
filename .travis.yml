@@ -5,5 +5,5 @@ ruby: "2.7.4"
 
 
 script:
-  - rails db:migrate
+  - bundle exec rake db:migrate
   - bundle exec rspec
