@@ -6,4 +6,4 @@ ruby: "2.7.4"
 
 script:
   - bundle exec rake db:migrate db:test:prepare
-  - bundle exec rspec
+  - bundle exec rspec --format documentation
