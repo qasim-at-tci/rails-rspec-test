@@ -1,0 +1,7 @@
+os: linux
+dist: xenial
+language: ruby
+ruby: "2.7.4"
+
+script:
+  - ruby -v
